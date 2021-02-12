@@ -1,4 +1,4 @@
-package com.dake.MultiThreading;
+package com.dnyanesh.multithreading;
 
 public class JoinSleepTest {
 

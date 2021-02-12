@@ -1,4 +1,4 @@
-package com.dake.MultiThreading;
+package com.dnyanesh.multithreading;
 
 class MyThread extends Thread {
 	@Override

@@ -1,4 +1,4 @@
-package com.dake.list;
+package com.dnyanesh.list;
 
 import java.util.ArrayList;
 

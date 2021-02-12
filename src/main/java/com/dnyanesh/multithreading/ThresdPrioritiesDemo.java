@@ -1,4 +1,4 @@
-package com.dake.MultiThreading;
+package com.dnyanesh.multithreading;
 
 class NewLogic extends Thread {
 	public void run() {

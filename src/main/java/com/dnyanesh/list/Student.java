@@ -1,4 +1,4 @@
-package com.dake.list;
+package com.dnyanesh.list;
 
 public class Student
 {

@@ -1,4 +1,4 @@
-package com.dake.MultiThreading;
+package com.dnyanesh.multithreading;
 
 public class InteruptedTest {
 	public static void main(String args[]) throws InterruptedException {

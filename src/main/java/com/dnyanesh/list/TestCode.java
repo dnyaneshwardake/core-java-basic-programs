@@ -1,4 +1,4 @@
-package com.dake.list;
+package com.dnyanesh.list;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ public class TestCode
 	private int getNo(int[] inputArray)
 	{
 		int count = 0;
-		int[] tempArr;
+		int[] tempArr = null;
 		int t = 0;
 		if (inputArray.length > 100)
 		{
