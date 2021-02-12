@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include<conio.h>
+#include <stdlib.h>
+int main()
+{
+    int A[10]={112, 160, 180, 240, 288, 32, 480, 96, 60, 72};
+    int i;
+    int j;
+    int minimum = A[0];
+    int GCD;
+    int temp;
+    for (i=1;i<9;i++)
+    {
+        if( A[i] < minimum)
+        {
+            minimum = A[i];
+        }
+    }
+    for (i=1; i < minimum/2; i++)
+    {
+        for (j = 0; j < 9;j++)
+        {
+            GCD = 2*i;
+            temp = ((A[j])/(GCD));
+            int check = temp%1;
+            if (check == 0)
+            break;
+        }
+    }
+    printf("The Greates Common Denominator is: %d", GCD);
+	getch();
+    return 0;
+}

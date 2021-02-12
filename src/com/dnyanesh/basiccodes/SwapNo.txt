@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a=10,b=5;
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("Number After Swapping A=%d And B=%d",a,b);
+	getch();
+}
